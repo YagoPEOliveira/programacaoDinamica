@@ -3,7 +3,7 @@ import random as rd
 def gerar_diretorias(quantidade_De_Diretorias):
     diretorias = []
     for i in range(quantidade_De_Diretorias):
-        diretoria = (rd.randint(4, 12), [])
+        diretoria = [rd.randint(4, 12), []]
         diretorias.append(diretoria)
     return diretorias
 def gerar_atividades(quantidade_De_Atividades):
